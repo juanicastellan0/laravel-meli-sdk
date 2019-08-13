@@ -3,6 +3,7 @@
     "description": "Laravel package for MeliSDK",
     "type": "library",
     "license": "MIT",
+    "minimum-stability": "stable",
     "authors": [
         {
             "name": "Valentin Starck",
@@ -30,6 +31,5 @@
                 "MeliSdk": "Tecnogo\\LaravelMeliSdk\\Facade"
             }
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
