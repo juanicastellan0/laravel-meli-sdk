@@ -14,9 +14,15 @@
         "illuminate/support": "^5.8",
         "illuminate/routing": "^5.8",
         "illuminate/events": "^5.8",
-        "tecnogo/meli-sdk": "dev-master",
+        "tecnogo/meli-sdk": "1.0.1",
         "illuminate/console": "^5.8"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/juanicastellan0/meli-sdk"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Tecnogo\\LaravelMeliSdk\\": "src/"
